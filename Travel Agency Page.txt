@@ -1,0 +1,49 @@
+Travel Agency Page:
+
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Explore amazing travel packages and itineraries with us!">
+  <title>Wanderlust Travels</title>
+</head>
+
+<body>
+  <h1>Explore Our Travel Destinations</h1>
+
+  <p>Welcome to Wanderlust Travels! We offer exciting travel experiences to beautiful destinations around the world.</p>
+
+  <h2>Packages</h2>
+
+  <p>Choose from a variety of travel packages designed to suit your needs.</p>
+
+  <ul>
+    <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+    <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+  </ul>
+
+  <h2>Top Itineraries</h2>
+
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="The Colosseum in Rome">
+    </a>
+    <figcaption>Discover ancient wonders in Rome.</figcaption>
+  </figure>
+
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Snowy Alps mountain range">
+    </a>
+    <figcaption>Adventure awaits in the Alps.</figcaption>
+  </figure>
+
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Calm blue sea view">
+    </a>
+    <figcaption>Relax by the beautiful sea.</figcaption>
+  </figure>
+
+</body>
+</html>

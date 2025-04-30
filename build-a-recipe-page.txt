@@ -1,0 +1,34 @@
+Build a recipe page:
+
+<!DOCTYPE html>
+<html lang="en">  
+  <head>
+    <meta charset="utf-8">
+    <title>David's Recipe</title>
+  </head>
+  <body>
+    <h1>David's Recipe for Cookies</h1>
+    <p>Today we will make David's cookies.</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li>Dough</li>
+      <li>Chocolate</li>
+      <li>Water</li>
+      <li>Eggs</li>
+    </ul>
+
+    <h2>Instructions</h2>
+    <ol>
+      <li>Figure it out</li>
+      <li>It's not that</li>
+      <li>Complicated</li>
+      <li>Do it yourself</li>
+    </ol>
+
+    <figure>
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="A batch of cookies">
+      <figcaption>Delicious cookies!</figcaption>
+    </figure>
+  </body>
+</html>
