@@ -1,0 +1,87 @@
+Blog Post Card:
+
+index.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Post Card</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="blog-post-card">
+    <img
+      class="post-img"
+      src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg"
+      alt="Cover photo of a blog post"
+    />
+    <div class="post-content">
+      <h2 class="post-title">Understanding Flexbox in CSS</h2>
+      <p class="post-excerpt">
+        Flexbox is a powerful layout module that helps you align and distribute elements efficiently within a container.
+      </p>
+      <a class="read-more" href="#">Read More</a>
+    </div>
+  </div>
+</body>
+</html>
+--------------------------------------------------------------------------
+styles.css:
+
+.blog-post-card {
+  background-color: white;
+  border-radius: 12px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.post-img {
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #ccc;
+}
+
+.post-content {
+  padding: 16px;
+}
+
+.post-title {
+  color: #333;
+  margin: 12px 0;
+}
+
+.post-excerpt {
+  color: #555;
+  margin: 12px 0;
+}
+
+.read-more {
+  color: white;
+  background-color: #0077cc;
+  padding: 8px 16px;
+  margin: 12px 0;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #005fa3;
+}
+
+
+
+
+
+
+
+
+
+
+
