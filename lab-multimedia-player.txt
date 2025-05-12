@@ -1,0 +1,46 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Page</title>
+</head>
+<body>
+
+  <h1>Main Title of the Page</h1>
+
+  <!-- First Section: Audio -->
+  <section>
+    <h2>Now Playing: Example Song</h2>
+    <audio controls aria-label="Audio player for Example Song">
+      <source src="example-song.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- Second Section: Video -->
+  <section>
+    <h2>Now Playing: Example Video</h2>
+    <video controls width="640" aria-label="Video player for Example Video">
+      <source src="example-video.mp4" type="video/mp4">
+      <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Third Section: Transcript -->
+  <section>
+    <h2>Transcript</h2>
+    <p>
+      Welcome to the video. In this video, we’ll walk through the basic steps of setting up your media player.
+      We’ll begin with the audio section, followed by the video content, and wrap up with a transcript overview.
+    </p>
+  </section>
+
+</body>
+</html>
+
+
+** end of index.html **
+
